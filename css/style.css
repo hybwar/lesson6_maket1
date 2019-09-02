@@ -1,0 +1,541 @@
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.main-header {
+	width: 100%;
+	padding: 50px;
+	background-color: #445162;
+	height: 223px;
+	margin: 0;
+}
+
+.main-header:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main-header-wrapper {
+	margin: 0;
+	float: left;
+}
+
+.main-header-title {
+	margin: 0 0 31px 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 60px;
+	font-weight: 400;
+}
+
+.main-header-list {
+	/*list-style-image: url(img/check_icon.png);*/
+	list-style-type: none;
+	margin: 0;
+}
+
+.main-header-list-item {
+	margin: 0;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 36px;
+	position: relative;
+}
+
+.main-header-list-item:before {
+	content: "";
+	display: block;
+	width: 25px;
+	height: 19px;
+	background-image: url(img/check_icon.png);
+	background-size: cover;
+	position: absolute;
+	top: 3px;
+	left: -30px;
+}
+
+.main-header-photo {
+	width: 469px;
+	height: 214px;
+	display: block;
+	float: right;
+}
+
+.content {
+	width: 100%;
+	padding: 50px;
+}
+
+.about-product {
+	width: 100%;
+	margin: 0;
+}
+
+.about-product:after {
+	margin: 0;
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.about-product-header {
+	margin: 0 0 30px 0;
+	width: 254px;
+	height: 28px;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.about-product-text {
+	margin: 0 0 20px 0;
+	width: 653px;
+	float: left;
+}
+
+.about-product-text {
+	color: #333333;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.about-product-video {
+	float: right;
+	display: block;
+	background-color: #445161;
+	width: 430px;
+	height: 245px;
+}
+
+.dignity-pluses-product {
+	margin: 70px 0 0 0;
+}
+
+.dignity-pluses-product-header {
+	text-align: center;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.dignity-pluses-product-list {
+	list-style-type: none;
+	column-count: 2;
+}
+
+.dignity-pluses-product-list-item {
+	margin: 0 5px 35px 0;
+	position: relative;
+	width: 580px;
+}
+
+.dignity-pluses-product-list-item:before {
+	content: "";
+	display: block;
+	width: 32px;
+	height: 32px;
+	background-image: url(/img/plus_icon.png);
+	background-size: cover;
+	position: absolute;
+	top: 3px;
+	left: -38px
+}
+
+.scrinshots {}
+
+.scrinshots-header {
+	text-align: center;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.scrinshots-list {
+	column-count: 2;
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.scrinshots-list-item {
+	padding: 0 0 10px 0;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.scrinshots-figure {}
+
+.scrinshots-figure img {
+	float: left;
+	margin: 0 25px 0 -40px;
+}
+
+.scrinshots_list-header {
+	margin: 0;
+}
+
+.scrinshots-list-item-fon {
+	background-image: url(img/image.png);
+}
+
+.scrinshots-list-item-text {}
+
+.reviews-section {}
+
+.reviews-header {
+	text-align: center;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.reviews-blocks {
+	display: flex;
+}
+
+.reviews-blocks2 {
+	display: flex;
+}
+
+.reviews-block1 {
+	padding: 0 0 40px 0;
+}
+
+.reviews-block2 {
+	padding: 0px 0 40px 0;
+}
+
+.reviews-block3 {
+	padding: 0px 0 40px 0;
+}
+
+.reviews-block4 {
+	padding: 0 0 40px 0;
+}
+
+.reviews-block-image {
+	float: left;
+	padding: 0 33px 20px 0;
+}
+
+.reviews-block-text {}
+
+.reviews-block-text-author {
+	color: #989898;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 18px;
+}
+
+.buy-sections {}
+
+.buy-header {
+	text-align: center;
+	color: #445161;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.buy-flex {
+	display: flex;
+	align-items: flex-end;
+}
+
+.buy-stadart {
+	margin: 0 0 0px 100px;
+	background-color: #445162;
+	width: 300px;
+	height: 306px;
+}
+
+.buy-premium {
+	margin: 0 0 0 45px;
+	background-color: #445162;
+	width: 300px;
+	height: 404px;
+}
+
+.buy-lux {
+	margin: 0 0 0 55px;
+	background-color: #445162;
+	width: 300px;
+	height: 499px;
+}
+
+.buy-flex-header {
+	display: block;
+	text-align: center;
+	width: 300px;
+	font-family: "Arial MT";
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	background-color: #445162;
+}
+
+.buy-flex-header-prise {
+	width: 298px;
+	margin: 0 0 0 1px;
+	height: 71px;
+	outline: 1px solid #445162;
+	color: #445162;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Arial MT";
+	font-size: 40px;
+	background-color: #ffffff;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.buy-flex-header-prise-list {}
+
+.buy-flex-header-prise-list li {
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	height: 24px;
+	color: #ffffff;
+}
+
+.buy-button {
+	outline: 0px;
+	width: 260px;
+	height: 40px;
+	outline: 0 0 0 0;
+	background-color: #ffffff;
+	background-color: #ffffff;
+	margin: 0 0 0 20px;
+}
+
+.buy-button:hover {
+	background-color: darkgrey;
+}
+
+.buy-button:active {
+	background-color: white;
+}
+
+.buy-button-text {
+	color: #445161;
+	font-family: "Arial - Bold MT";
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.overlay {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.trailer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+. video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	margin: 0 auto;
+	width: 1280px;
+	height: 509px;
+	background-color: #445162;
+}
+
+.contacts {
+	margin: 0 0 31px 0;
+	text-align: center;
+	color: white;
+	padding: 53px 0 0 0;
+	font-family: "Arial MT";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+.contacts-flex {
+	display: flex;
+	flex-direction: row;
+}
+
+form {}
+
+.form-contacts {
+	padding: 0 0 0 259px;
+}
+
+.form-name {
+	outline: 0px;
+	width: 500px;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 0 0 21px 0;
+}
+
+.form-email {
+	outline: 0px;
+	width: 500px;
+	height: 40px;
+	background-color: #ffffff;
+	margin: 0 0 21px 0;
+}
+
+.form-message {
+	outline: 0px;
+	width: 500px;
+	height: 170px;
+	background-color: #ffffff;
+}
+
+input {
+	outline: 0px;
+	display: block;
+	padding: 0 0 0 10px;
+	width: 500px;
+	height: 40px;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+textarea {
+	display: block;
+	resize: none;
+	width: 500px;
+	height: 170px;
+	padding: 0 0 0 10px;
+}
+
+.button-contacts {
+	outline: 0px;
+	margin: 20px 0 0 180px;
+}
+
+.button-contacts:hover {
+	background-color: darkgrey;
+}
+
+.button-contacts:active {
+	background-color: white;
+}
+
+input[type="submit"] {
+	width: 140px;
+	height: 40px;
+	text-transform: uppercase;
+	color: #445162;
+	font-family: "Arial - Bold MT";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.footer-contacts {}
+
+.footer-wraper {}
+
+.footer-wraper-list {
+	list-style-type: none;
+}
+
+.footer-wraper-list {
+	padding: 0 0 20px 20px;
+	color: #ffffff;
+	font-family: "Arial MT";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.pixel {
+	margin: 0px 10px 0 0
+}
+
+
+}
+.footer-contacts-elements {}
+.footer-wraper-list-social {
+	list-style-type: none;
+}
+.social-icon {
+	width: 100%;
+	display: flex;
+	padding: 0 0 0 45px;
+}
+.icon {
+	padding: 0 5px 0 0;
+	display: block;
+	width: 43px;
+	min-height: 43px;
+	background-image: url(/img/social_buttons.png)
+}
+.icon:nth-child(1) {
+	background-position: 0 0;
+}
+.icon:nth-child(2) {
+	background-position: 190px 0;
+}
+.icon:nth-child(3) {
+	background-position: 141px 0;
+}
+.icon:nth-child(4) {
+	background-position: 91px 0;
+}
+.icon:nth-child(5) {
+	background-position: 48px 0;
+}
+
+}
+.copyright-footer {
+	margin: 0 auto;
+	width: 1280px;
+	height: 26px;
+}
+.copyright-footer-text {
+	text-align: center;
+	color: #445162;
+	font-family: "Arial MT";
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	/* Text style for "C, opyrigh" */
+	letter-spacing: 0.3px;
+}
